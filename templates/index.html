@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <p>Enter a movie review below:</p>
+    <form id="sentiment-form">
+        <textarea id="review" rows="5" cols="50"></textarea>
+        <br>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
+
